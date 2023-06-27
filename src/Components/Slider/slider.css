@@ -80,12 +80,4 @@
 .carousel .control-prev.control-arrow{
     left:2%
 }
-.slider-img{
-    background-image: url("../../../public/assets/img/slider-2.jpg");
-    background-repeat: no-repeat; 
-    background-position: center; 
-    background-size: cover;
-    height: 80vh;
-        
-}
 
