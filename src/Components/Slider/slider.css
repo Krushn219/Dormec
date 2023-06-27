@@ -1,13 +1,25 @@
+/* :root {
+    --primary: #FF3E41;
+    --secondary: #51CFED;
+    --light: #F8F2F0;
+    --dark: #060315;
+    --btn_primary: #FF3E41 !important;
+} */
+
+* {
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
 .carousel .thumbs{
     display: none;
 }
 .carousel .slide .legend{
     opacity: 1;
     transition: all .5s ease-in-out;
-    position: absolute;
     bottom: 40px;
     left: 25%;
-    width: 50%;
+    width: 45%;
     margin-left: 0px;
     border-radius: 10px;
     background: indianred;
@@ -16,6 +28,12 @@
     text-align: center;
     transition: opacity .35s ease-in-out;
 }
+.carousel .slide .legend p{
+    font-size: 16px;
+}
+.carousel .slide .legend:hover{
+    background: rgb(234, 67, 67);
+}
 .carousel .carousel-status{
     display: none;
 }
@@ -23,26 +41,51 @@
     color: #fff;
     font-size: 26px;
     padding: 5px;
-    background-color: red;
+    background: #FF6F61;
     width: 50px;
     height: 50px;
     top: 50%;   
+    border-radius: 5px;
 }
 .carousel .control-arrow,
 .carousel.carousel-slider .control-arrow{
-    opacity: 0.7;
+    opacity: 1;
 }
 .carousel .control-arrow{
     margin-top: 0px;
 }
 .carousel.carousel-slider .control-arrow:hover{
-    background: rgba(0, 0, 0, 0.2);
-    border: 1px solid red;
+    border: 1px solid #FF6F61;
     border-radius: 5px;
+    background: black
+}
+.carousel .control-next.control-arrow{
+    right: 2%;
+}
+.carousel .control-next.control-arrow:before {
+    border-left: 8px solid black;
+}
+.carousel .control-prev.control-arrow:before{
+    border-right: 8px solid black;
 }
 .carousel .control-next.control-arrow:hover:before{
-    border-left: 8px solid red;
+    border-left: 8px solid #FF6F61;
 }
 .carousel .control-prev.control-arrow:hover:before{
-    border-right: 8px solid red;
+    border-right: 8px solid #FF6F61;
 }
+.carousel .slide{
+    height: 70vh;
+}
+.carousel .control-prev.control-arrow{
+    left:2%
+}
+.slider-img{
+    background-image: url("../../../public/assets/img/slider-2.jpg");
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    height: 80vh;
+        
+}
+

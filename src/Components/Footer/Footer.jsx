@@ -111,8 +111,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-6 copyright">
               <p>
-                Copyright &copy; <a href="/">Your Site Name</a>. All Rights
-                Reserved
+                Copyright &copy; <a href="/">Dormec</a>. All Rights Reserved
               </p>
             </div>
 
