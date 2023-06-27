@@ -1,0 +1,48 @@
+.carousel .thumbs{
+    display: none;
+}
+.carousel .slide .legend{
+    opacity: 1;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    bottom: 40px;
+    left: 25%;
+    width: 50%;
+    margin-left: 0px;
+    border-radius: 10px;
+    background: indianred;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    transition: opacity .35s ease-in-out;
+}
+.carousel .carousel-status{
+    display: none;
+}
+.carousel.carousel-slider .control-arrow{
+    color: #fff;
+    font-size: 26px;
+    padding: 5px;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    top: 50%;   
+}
+.carousel .control-arrow,
+.carousel.carousel-slider .control-arrow{
+    opacity: 0.7;
+}
+.carousel .control-arrow{
+    margin-top: 0px;
+}
+.carousel.carousel-slider .control-arrow:hover{
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.carousel .control-next.control-arrow:hover:before{
+    border-left: 8px solid red;
+}
+.carousel .control-prev.control-arrow:hover:before{
+    border-right: 8px solid red;
+}

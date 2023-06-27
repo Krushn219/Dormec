@@ -1,0 +1,25 @@
+.review-main .slick-prev,
+.review-main .slick-next
+{
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    opacity: 0;
+    transition: .5s;
+    background: #FF6F61;
+    border-radius: 4px;
+}
+.review-main .slick-slider:hover .slick-next{
+    right: 60px;
+    opacity: 1;
+}
+.review-main .slick-slider .slick-next:hover{
+    background-color: black;
+}
+.review-main .slick-slider:hover .slick-prev{
+    left: 60px;
+    opacity: 1;
+}
+.review-main .slick-slider .slick-prev:hover {
+    background-color: black;
+}
