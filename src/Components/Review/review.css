@@ -6,7 +6,8 @@
     z-index: 1;
     opacity: 0;
     transition: .5s;
-    background: #FF6F61;
+    /* background: #FF6F61; */
+    background: #154c79;
     border-radius: 4px;
 }
 .review-main .slick-slider:hover .slick-next{
