@@ -80,4 +80,13 @@
 .carousel .control-prev.control-arrow{
     left:2%
 }
+@media (max-width: 425px) {
+    .carousel .slide .legend {
+        left: 10%;
+        width: 80%;
+    }
+    .carousel.carousel-slider .control-arrow{
+        top: 26%;
+    }
+  }
 

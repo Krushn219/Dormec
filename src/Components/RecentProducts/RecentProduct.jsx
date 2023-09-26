@@ -37,7 +37,7 @@ const RecentProduct = () => {
     <>
       {/* <!-- Featured Product Start -->  */}
       <div class="featured-product product">
-        <div class="container-fluid">
+        <div class="container-fluid custom-fluid">
           <div class="section-header">
             <h1>Recent Product</h1>
           </div>

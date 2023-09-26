@@ -38,7 +38,7 @@ const Product = () => {
     <>
       {/* <!-- Featured Product Start -->  */}
       <div class="featured-product product">
-        <div class="container-fluid">
+        <div class="container-fluid custom-fluid">
           <div class="section-header">
             <h1>Featured Product</h1>
           </div>
@@ -46,7 +46,7 @@ const Product = () => {
       </div>
       <Slider {...settings}>
         <div>
-          <div className="col-lg-12">
+          <div className="col-lg-12 custom-col">
             <div className="product-item">
               <div className="product-title">
                 <a href="/">Product Name</a>
