@@ -22,17 +22,17 @@
     width: 45%;
     margin-left: 0px;
     border-radius: 10px;
-    background: indianred;
+    background: #206ba9;
     color: #fff;
     padding: 10px;
     text-align: center;
-    transition: opacity .35s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 .carousel .slide .legend p{
     font-size: 16px;
 }
 .carousel .slide .legend:hover{
-    background: rgb(234, 67, 67);
+    background: #18588d;
 }
 .carousel .carousel-status{
     display: none;
@@ -41,7 +41,7 @@
     color: #fff;
     font-size: 26px;
     padding: 5px;
-    background: #FF6F61;
+    background: #206ba9;
     width: 50px;
     height: 50px;
     top: 50%;   
@@ -55,24 +55,24 @@
     margin-top: 0px;
 }
 .carousel.carousel-slider .control-arrow:hover{
-    border: 1px solid #FF6F61;
+    border: 1px solid #206ba9;
     border-radius: 5px;
-    background: black
+    background: rgb(250, 244, 244)
 }
 .carousel .control-next.control-arrow{
     right: 2%;
 }
 .carousel .control-next.control-arrow:before {
-    border-left: 8px solid black;
+    border-left: 8px solid white;
 }
 .carousel .control-prev.control-arrow:before{
-    border-right: 8px solid black;
+    border-right: 8px solid white;
 }
 .carousel .control-next.control-arrow:hover:before{
-    border-left: 8px solid #FF6F61;
+    border-left: 8px solid #206ba9;
 }
 .carousel .control-prev.control-arrow:hover:before{
-    border-right: 8px solid #FF6F61;
+    border-right: 8px solid #206ba9;
 }
 .carousel .slide{
     height: 70vh;

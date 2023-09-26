@@ -9,11 +9,11 @@ const Header = () => {
           <div className="row">
             <div className="col-sm-6">
               <i className="fa fa-envelope"></i>
-              support@email.com
+              dormecllp@email.com
             </div>
             <div className="col-sm-6">
               <i className="fa fa-phone-alt"></i>
-              +012-345-6789
+              +91 97262 94830
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@ const Header = () => {
                     User Account
                   </a>
                   <div className="dropdown-menu">
-                    <a href="/" className="dropdown-item">
+                    <a href="/" className="dropdown-item dropdown-item-custom">
                       Login
                     </a>
                     <a href="/" className="dropdown-item">
@@ -112,7 +112,8 @@ const Header = () => {
             <div className="col-md-3">
               <div className="logo">
                 <a href="index.html">
-                  <img src="assets/img/logo.png" alt="Logo" />
+                  {/* <img src="assets/img/logo.png" alt="Logo" /> */}
+                  <h2>Dormec</h2>
                 </a>
               </div>
             </div>

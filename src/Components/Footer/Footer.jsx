@@ -12,14 +12,13 @@ const Footer = () => {
                 <h2>Get in Touch</h2>
                 <div className="contact-info">
                   <p>
-                    <i className="fa fa-map-marker"></i>123 E Store, Los
-                    Angeles, USA
+                    <i className="fa fa-map-marker"></i>Shed No.2, Survey No.251P4,Industria Ares , Kothariys, Rajkot, Gujarat, India
                   </p>
                   <p>
-                    <i className="fa fa-envelope"></i>email@example.com
+                    <i className="fa fa-envelope"></i>dormacllp@example.com
                   </p>
                   <p>
-                    <i className="fa fa-phone"></i>+123-456-7890
+                    <i className="fa fa-phone"></i>+91 97262 94830 <br/> +91 98792 62945
                   </p>
                 </div>
               </div>
