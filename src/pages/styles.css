@@ -1,39 +1,58 @@
 :root {
-    --primary: #154c79;
-    /* --secondary: #0B2154; */
-    /* --light: #F2F2F2; */
-    /* --dark: #111111; */
+  --primary: #154c79;
+  /* --secondary: #0B2154; */
+  /* --light: #F2F2F2; */
+  /* --dark: #111111; */
 }
-.text-primary{
-    color: #154c79!important;
+.text-primary {
+  color: #154c79 !important;
 }
-
 
 .page-header {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .page-header-inner {
-    background: rgba(0, 0, 0, .7);
+  background: rgba(0, 0, 0, 0.7);
 }
 
-.breadcrumb{
-    background: transparent;
-    font-weight: 700;
+.breadcrumb {
+  background: transparent;
+  font-weight: 700;
 }
 .breadcrumb-item + .breadcrumb-item::before {
-    color: var(--light);
+  color: var(--light);
 }
 
 /* About Text */
 
-.about-text{
-    font-size: 20px;
+.about-text {
+  font-size: 20px;
 }
-.about-text span{
-    font-weight: 700;
-    font-size: 35px;
-    color: #154c79;
+.about-text span {
+  font-weight: 700;
+  font-size: 35px;
+  color: #154c79;
+}
+
+/* // Contect Page */
+
+.form-control {
+  height: 50px !important;
+}
+.contect .btn-primary {
+  color: #fff;
+  background: #154c79;
+  border: 1px solid #fff;
+}
+
+.contect .btn-primary:hover {
+  color: #fff;
+  background: #0a4677;
+  border: 1px solid #fff;
+}
+.contect .bg-light{
+    background-color:#e7eaed!important ;
 }

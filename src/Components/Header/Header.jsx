@@ -48,6 +48,9 @@ const Header = () => {
                 <Link to={"/about"} className="nav-item nav-link">
                   About
                 </Link>
+                <Link to={"/contect"} className="nav-item nav-link">
+                  Contect Us
+                </Link>
 
                 {/* <div className="nav-item dropdown">
                   <a
