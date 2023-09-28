@@ -2228,7 +2228,9 @@ h2 {
 .footer {
   position: relative;
   padding: 30px 0 0 0;
-  background: #ffffff;
+  /* background: #ffffff; */
+  background: #154c79;
+  color: #f3f6ff;
 }
 
 .footer .footer-widget {
@@ -2258,7 +2260,7 @@ h2 {
 }
 
 .footer .footer-widget ul li a {
-  color: #353535;
+  color: #f8f9fa;
   white-space: nowrap;
   display: block;
   line-height: 23px;
@@ -2273,7 +2275,7 @@ h2 {
 }
 
 .footer .footer-widget ul li a:hover {
-  color: #154c79;
+  color: #353535;
 }
 
 .footer .footer-widget ul li a:hover::before {
@@ -2304,18 +2306,19 @@ h2 {
   padding: 6px 0;
   text-align: center;
   font-size: 18px;
-  /* color: #353535; */
-  color: white;
-  background: #154c79;
-  border: 1px solid #353535;
+  color: #154c79;
+  /* background: #154c79; */
+  background: #f8f9fa;
+  /* border: 1px solid #353535; */
+  border: 1px solid #f8f9fa;
   border-radius: 4px;
   transition: all 0.3s;
 }
 
 .footer .social a:hover {
-  color: #154c79;
-  border-color: #154c79;
-  background: white;
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+  background:#154c79;
 }
 
 .footer .payment {
