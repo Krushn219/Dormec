@@ -10,7 +10,7 @@ const About = () => {
       {/* <!-- Page Header Start --> */}
       <div
         className="container-fluid page-header mb-5 p-0"
-        style={{ backgroundImage: "url(assets/img/carousel-bg-1.jpg)" }}
+        style={{ backgroundImage: "url(assets/img/Color.JPG)" }}
       >
         <div className="container-fluid page-header-inner py-5">
           <div className="container text-center">
