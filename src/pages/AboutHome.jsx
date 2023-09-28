@@ -15,7 +15,7 @@ const About = () => {
               className="col-12 col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay="0.1s"
             >
-              <div className="d-flex bg-light py-2 px-2">
+              <div className="d-flex bg-light py-2 px-2 mb-3 ">
                 <i className="fa fa-certificate fa-3x text-primary flex-shrink-0"></i>
                 <div className="pl-4">
                   <h5 className="mb-3">OUR VISION</h5>
@@ -31,7 +31,7 @@ const About = () => {
               className="col-12 col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay="0.3s"
             >
-              <div className="d-flex bg-light py-2 px-2">
+              <div className="d-flex bg-light py-2 px-2 mb-3">
                 <i className="fa fa-users-cog fa-3x text-primary flex-shrink-0"></i>
                 <div className="pl-4">
                   <h5 className="mb-3">OUR MISSION</h5>
@@ -50,7 +50,7 @@ const About = () => {
               className="col-12 col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay="0.5s"
             >
-              <div className="d-flex bg-light py-2 px-2">
+              <div className="d-flex bg-light py-2 px-2 mb-3">
                 <i className="fa fa-tools fa-3x text-primary flex-shrink-0"></i>
                 <div className="pl-4">
                   <h5 className="mb-3">CLIENT SATISFACTION</h5>
@@ -89,7 +89,7 @@ const About = () => {
                   className="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5"
                   style={{ background: "rgba(0, 0, 0, .08)" }}
                 >
-                  <h1 className="display-4 mb-0" style={{color:"#18588d"}}>
+                  <h1 className="display-4 mb-0" style={{ color: "#18588d" }}>
                     5 <span className="fs-4">Years</span>
                   </h1>
                   <h4 className="text-white">Experience</h4>

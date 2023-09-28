@@ -80,7 +80,7 @@ const About = () => {
               className="col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay="0.1s"
             >
-              <div className="d-flex bg-light py-2 px-2">
+              <div className="d-flex bg-light py-2 px-2 mb-3">
                 <i className="fa fa-certificate fa-3x text-primary flex-shrink-0"></i>
                 <div className="pl-4">
                   <h5 className="mb-3">OUR VISION</h5>
@@ -96,7 +96,7 @@ const About = () => {
               className="col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay="0.3s"
             >
-              <div className="d-flex bg-light py-2 px-2">
+              <div className="d-flex bg-light py-2 px-2 mb-3">
                 <i className="fa fa-users-cog fa-3x text-primary flex-shrink-0"></i>
                 <div className="pl-4">
                   <h5 className="mb-3">OUR MISSION</h5>
@@ -115,7 +115,7 @@ const About = () => {
               className="col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay="0.5s"
             >
-              <div className="d-flex bg-light py-2 px-2">
+              <div className="d-flex bg-light py-2 px-2 mb-3">
                 <i className="fa fa-tools fa-3x text-primary flex-shrink-0"></i>
                 <div className="pl-4">
                   <h5 className="mb-3">CLIENT SATISFACTION</h5>
