@@ -1,30 +1,21 @@
-import "./App.css";
-import Brands from "./Components/Brands/Brands";
-import Category from "./Components/Category/Category";
-import Feature from "./Components/Feature/Feature";
-import Footer from "./Components/Footer/Footer";
-import Header from "./Components/Header/Header";
-import NewsLetter from "./Components/NewsLetter/NewsLetter";
-import Product from "./Components/Products/Product";
-import RecentProduct from "./Components/RecentProducts/RecentProduct";
-import Review from "./Components/Review/Review";
-import MySlider from "./Components/Slider/MySlider";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About"; // Import other page components as needed
 
 function App() {
   return (
-    <>
-      <Header />
-      <MySlider />
-      <Brands />
-      <Feature />
-      <Category />
-      <Product />
-      <NewsLetter />
-      <RecentProduct />
-      <Review />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        {/* Define your routes */}
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        {/* Add more routes as needed */}
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
+
+
