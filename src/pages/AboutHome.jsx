@@ -12,7 +12,7 @@ const About = () => {
         <div className="container">
           <div className="row g-4">
             <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
+              className="col-12 col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay="0.1s"
             >
               <div className="d-flex bg-light py-2 px-2">
@@ -28,7 +28,7 @@ const About = () => {
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
+              className="col-12 col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay="0.3s"
             >
               <div className="d-flex bg-light py-2 px-2">
@@ -47,7 +47,7 @@ const About = () => {
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
+              className="col-12 col-lg-4 col-md-6 wow fadeInUp"
               data-wow-delay="0.5s"
             >
               <div className="d-flex bg-light py-2 px-2">
