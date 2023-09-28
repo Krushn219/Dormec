@@ -45,7 +45,7 @@ const MySlider = () => {
         >
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img className="w-100" src="assets/img/color.jpg" alt="Image" />
+              <img className="w-100" src="assets/img/Color.JPG" alt="Image" />
               <div className="carousel-caption d-flex align-items-center">
                 <div className="container">
                   {/* <div className="row align-items-center justify-content-center justify-content-lg-start">
