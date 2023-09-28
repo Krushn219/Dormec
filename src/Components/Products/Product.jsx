@@ -60,7 +60,7 @@ const Product = () => {
               </div>
               <div className="product-image">
                 <a href="product-detail.html">
-                  <img src="assets/img/Neno.jpg" alt="Product" />
+                  <img src="assets/img/neno.jpg" alt="Product" />
                 </a>
                 <div className="product-action">
                   <a href="/">
@@ -100,7 +100,7 @@ const Product = () => {
               </div>
               <div className="product-image">
                 <a href="product-detail.html">
-                  <img src="assets/img/Regular.jpg" alt="Product" />
+                  <img src="assets/img/regular.jpg" alt="Product" />
                 </a>
                 <div className="product-action">
                   <a href="/">
@@ -180,7 +180,7 @@ const Product = () => {
               </div>
               <div className="product-image">
                 <a href="product-detail.html">
-                  <img src="assets/img/Squre.jpg" alt="Product" />
+                  <img src="assets/img/squre.jpg" alt="Product" />
                 </a>
                 <div className="product-action">
                   <a href="/">
@@ -220,7 +220,7 @@ const Product = () => {
               </div>
               <div className="product-image">
                 <a href="product-detail.html">
-                  <img src="assets/img/Extra.jpg" alt="Product" />
+                  <img src="assets/img/extra.jpg" alt="Product" />
                 </a>
                 <div className="product-action">
                   <a href="/">
