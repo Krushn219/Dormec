@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -26,7 +26,7 @@ const Header = () => {
         <div className="container-fluid">
           <nav className="navbar navbar-expand-md bg-dark navbar-dark">
             <a href="/" className="navbar-brand">
-              MENU
+              Dormec
             </a>
             <button
               type="button"
@@ -42,21 +42,14 @@ const Header = () => {
               id="navbarCollapse"
             >
               <div className="navbar-nav mr-auto">
-                <Link to={"/"} className="nav-item nav-link">Home</Link>
-                <Link to={"/about"} className="nav-item nav-link">About</Link>
-                <a href="product-detail.html" className="nav-item nav-link">
-                  Product Detail
-                </a>
-                <a href="cart.html" className="nav-item nav-link">
-                  Cart
-                </a>
-                <a href="checkout.html" className="nav-item nav-link">
-                  Checkout
-                </a>
-                <a href="my-account.html" className="nav-item nav-link">
-                  My Account
-                </a>
-                <div className="nav-item dropdown">
+                <Link to={"/"} className="nav-item nav-link">
+                  Home
+                </Link>
+                <Link to={"/about"} className="nav-item nav-link">
+                  About
+                </Link>
+
+                {/* <div className="nav-item dropdown">
                   <a
                     href="/"
                     className="nav-link dropdown-toggle"
@@ -75,7 +68,7 @@ const Header = () => {
                       Contact Us
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="navbar-nav ml-auto">
                 <div className="nav-item dropdown">
@@ -108,10 +101,10 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-md-3">
               <div className="logo">
-                <a href="index.html">
-                  {/* <img src="assets/img/logo.png" alt="Logo" /> */}
+                <NavLink>
+                  {/* <img src="llogo.png" alt="Logo" /> */}
                   <h2>Dormec</h2>
-                </a>
+                </NavLink>
               </div>
             </div>
             <div className="col-md-6">

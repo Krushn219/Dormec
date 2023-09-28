@@ -1,9 +1,12 @@
-/* :root {
-    --primary: #D81324;
-    --secondary: #0B2154;
-    --light: #F2F2F2;
-    --dark: #111111;
-} */
+:root {
+    --primary: #154c79;
+    /* --secondary: #0B2154; */
+    /* --light: #F2F2F2; */
+    /* --dark: #111111; */
+}
+.text-primary{
+    color: #154c79!important;
+}
 
 
 .page-header {

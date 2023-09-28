@@ -9,18 +9,20 @@ import Product from "../Components/Products/Product";
 import RecentProduct from "../Components/RecentProducts/RecentProduct";
 import Review from "../Components/Review/Review";
 import MySlider from "../Components/Slider/MySlider";
+import AboutHome from "./AboutHome";
 
 function App() {
   return (
     <>
       <Header />
       <MySlider />
+      <AboutHome />
       <Brands />
       <Feature />
-      <Category />
+      {/* <Category /> */}
       <Product />
       <NewsLetter />
-      <RecentProduct />
+      {/* <RecentProduct /> */}
       <Review />
       <Footer />
     </>

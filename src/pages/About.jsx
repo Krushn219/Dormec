@@ -155,8 +155,8 @@ const About = () => {
                   className="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5"
                   style={{ background: "rgba(0, 0, 0, .08)" }}
                 >
-                  <h1 className="display-4 text-white mb-0">
-                    15 <span className="fs-4">Years</span>
+                  <h1 className="display-4 text-primary mb-0">
+                    5 <span className="fs-4">Years</span>
                   </h1>
                   <h4 className="text-white">Experience</h4>
                 </div>
