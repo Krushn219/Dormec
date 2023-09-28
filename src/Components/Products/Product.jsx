@@ -60,7 +60,7 @@ const Product = () => {
               </div>
               <div className="product-image">
                 <a href="product-detail.html">
-                  <img src="assets/img/neno.jpg" alt="Product" />
+                  <img src="assets/img/Neno.JPG" alt="Product" />
                 </a>
                 <div className="product-action">
                   <a href="/">
@@ -100,7 +100,7 @@ const Product = () => {
               </div>
               <div className="product-image">
                 <a href="product-detail.html">
-                  <img src="assets/img/regular.jpg" alt="Product" />
+                  <img src="assets/img/Regular.JPG" alt="Product" />
                 </a>
                 <div className="product-action">
                   <a href="/">
@@ -114,14 +114,6 @@ const Product = () => {
                   </a>
                 </div>
               </div>
-              {/* <div className="product-price">
-                <h3>
-                  <span>$</span>99
-                </h3>
-                <a className="btn" href="/">
-                  <i className="fa fa-shopping-cart"></i>Buy Now
-                </a>
-              </div> */}
             </div>
           </div>
         </div>
@@ -140,7 +132,7 @@ const Product = () => {
               </div>
               <div className="product-image">
                 <a href="product-detail.html">
-                  <img src="assets/img/pelmet.jpg" alt="Product" />
+                  <img src="assets/img/pelmet.JPG" alt="Product" />
                 </a>
                 <div className="product-action">
                   <a href="/">
@@ -154,14 +146,6 @@ const Product = () => {
                   </a>
                 </div>
               </div>
-              {/* <div className="product-price">
-                <h3>
-                  <span>$</span>99
-                </h3>
-                <a className="btn" href="/">
-                  <i className="fa fa-shopping-cart"></i>Buy Now
-                </a>
-              </div> */}
             </div>
           </div>
         </div>
@@ -180,7 +164,7 @@ const Product = () => {
               </div>
               <div className="product-image">
                 <a href="product-detail.html">
-                  <img src="assets/img/squre.jpg" alt="Product" />
+                  <img src="assets/img/Squre.JPG" alt="Product" />
                 </a>
                 <div className="product-action">
                   <a href="/">
@@ -194,14 +178,6 @@ const Product = () => {
                   </a>
                 </div>
               </div>
-              {/* <div className="product-price">
-                <h3>
-                  <span>$</span>99
-                </h3>
-                <a className="btn" href="/">
-                  <i className="fa fa-shopping-cart"></i>Buy Now
-                </a>
-              </div> */}
             </div>
           </div>
         </div>
@@ -220,7 +196,7 @@ const Product = () => {
               </div>
               <div className="product-image">
                 <a href="product-detail.html">
-                  <img src="assets/img/extra.jpg" alt="Product" />
+                  <img src="assets/img/Extra.JPG" alt="Product" />
                 </a>
                 <div className="product-action">
                   <a href="/">
@@ -234,14 +210,38 @@ const Product = () => {
                   </a>
                 </div>
               </div>
-              {/* <div className="product-price">
-                <h3>
-                  <span>$</span>99
-                </h3>
-                <a className="btn" href="/">
-                  <i className="fa fa-shopping-cart"></i>Buy Now
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="col-lg-12">
+            <div className="product-item">
+              <div className="product-title">
+                <a href="/">Conceald</a>
+                <div className="ratting">
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                </div>
+              </div>
+              <div className="product-image">
+                <a href="product-detail.html">
+                  <img src="assets/img/Conceald.JPG" alt="Product" />
                 </a>
-              </div> */}
+                <div className="product-action">
+                  <a href="/">
+                    <i className="fa fa-cart-plus"></i>
+                  </a>
+                  <a href="/">
+                    <i className="fa fa-heart"></i>
+                  </a>
+                  <a href="/">
+                    <i className="fa fa-search"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
